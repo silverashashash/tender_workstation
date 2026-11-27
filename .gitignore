@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+server/node_modules/
+client/node_modules/
+
+# Build outputs
+dist/
+server/dist/
+client/dist/
+release/
+
+# Environment & Secrets (NEVER commit real passwords)
+.env
+.env.local
+.env.*.local
+
+# Local persistent data & sensitive tender files (isolated from Git)
+server/data/
+server/uploads/
+data/
+uploads/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+sample_docs/
+工具校验/
+复核-*.md
+工具核对报告.md
+.venv/
+
+# OS & Editor
+.DS_Store
+.vscode/
+.idea/
+*.log
+npm-debug.log*
+.local/
+
+# TypeScript build info
+*.tsbuildinfo

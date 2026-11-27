@@ -1,0 +1,17 @@
+{
+  "name": "tender-workstation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "招标代理个人 SOP 全栈工作台 (React + Node.js + SQLite)",
+  "scripts": {
+    "install:all": "npm install && npm --prefix server install && npm --prefix client install",
+    "dev": "concurrently -n API,WEB -c cyan,green \"npm --prefix server run dev\" \"npm --prefix client run dev\"",
+    "build": "npm --prefix client run build && npm --prefix server run build",
+    "build:win-portable": "node scripts/build-win-portable.mjs",
+    "mac:deploy": "bash scripts/mac-deploy.sh",
+    "start": "npm --prefix server run start"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

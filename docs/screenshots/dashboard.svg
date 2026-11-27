@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 680" width="1120" height="680" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <filter id="shadow" x="-4%" y="-4%" width="108%" height="112%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0f172a" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="1120" height="680" rx="14" fill="#F8FAFC"/>
+  <!-- Top Window Bar -->
+  <rect width="1120" height="40" rx="14" fill="#1E293B"/>
+  <rect y="26" width="1120" height="14" fill="#1E293B"/>
+  <circle cx="22" cy="20" r="5.5" fill="#EF4444"/>
+  <circle cx="40" cy="20" r="5.5" fill="#F59E0B"/>
+  <circle cx="58" cy="20" r="5.5" fill="#10B981"/>
+  <text x="560" y="24" text-anchor="middle" fill="#CBD5E1" font-size="12" font-weight="500">招标代理全流程 SOP 工作台 · 工作台总览（演示脱敏数据）</text>
+
+  <!-- Left Sidebar -->
+  <rect x="0" y="40" width="186" height="640" fill="#FFFFFF"/>
+  <line x1="186" y1="40" x2="186" y2="680" stroke="#E2E8F0"/>
+  <text x="20" y="72" fill="#3B5B7E" font-size="13" font-weight="700">SOP 全栈工作台</text>
+  <rect x="14" y="88" width="158" height="32" rx="7" fill="#EBF2F7"/>
+  <text x="28" y="109" fill="#3B5B7E" font-size="12" font-weight="600">工作台总览</text>
+  <text x="28" y="142" fill="#64748B" font-size="12">1. 招标阶段</text>
+  <text x="28" y="172" fill="#64748B" font-size="12">2. 开评标与风控</text>
+  <text x="28" y="202" fill="#64748B" font-size="12">3. 定标与服务费</text>
+  <text x="28" y="232" fill="#64748B" font-size="12">4. 归档资料核查</text>
+  <line x1="18" y1="252" x2="168" y2="252" stroke="#F1F5F9"/>
+  <text x="28" y="276" fill="#64748B" font-size="12">实用工具箱 (7)</text>
+  <text x="28" y="306" fill="#64748B" font-size="12">单批次迁移 / 备份</text>
+
+  <!-- Main Content -->
+  <g transform="translate(206, 58)">
+    <text x="0" y="18" fill="#1E293B" font-size="16" font-weight="700">工作台总览</text>
+    <text x="0" y="36" fill="#64748B" font-size="11">全局掌控各招标批次阶段分布、排期热力、时间节点与归档缺口，点击图表联动筛选下方台账。</text>
+
+    <!-- 4 KPI Cards -->
+    <g transform="translate(0, 50)">
+      <rect width="214" height="72" rx="10" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#shadow)"/>
+      <text x="14" y="24" fill="#64748B" font-size="11">在办招标批次</text>
+      <text x="14" y="54" fill="#1E293B" font-size="24" font-weight="700">6</text>
+      <text x="38" y="54" fill="#94A3B8" font-size="11">共 9 批 · 42 标段</text>
+
+      <rect x="226" width="214" height="72" rx="10" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#shadow)"/>
+      <text x="240" y="24" fill="#64748B" font-size="11">7日内即将开标</text>
+      <text x="240" y="54" fill="#9A6B26" font-size="24" font-weight="700">2</text>
+      <text x="262" y="54" fill="#94A3B8" font-size="11">点击聚焦临近批次</text>
+
+      <rect x="452" width="214" height="72" rx="10" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#shadow)"/>
+      <text x="466" y="24" fill="#64748B" font-size="11">归档必须项待补</text>
+      <text x="466" y="54" fill="#A94442" font-size="24" font-weight="700">3</text>
+      <text x="488" y="54" fill="#94A3B8" font-size="11">个批次 · 累计缺 9 项</text>
+
+      <rect x="678" width="214" height="72" rx="10" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#shadow)"/>
+      <text x="692" y="24" fill="#64748B" font-size="11">管理预算规模</text>
+      <text x="692" y="54" fill="#2F6F5E" font-size="22" font-weight="700">4,860万</text>
+      <text x="790" y="54" fill="#94A3B8" font-size="11">18 份成果</text>
+    </g>
+
+    <!-- Charts Row 1: Donut + Heatmap -->
+    <g transform="translate(0, 136)">
+      <!-- Donut Card -->
+      <rect width="360" height="174" rx="10" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#shadow)"/>
+      <text x="16" y="26" fill="#1E293B" font-size="12.5" font-weight="600">批次阶段分布</text>
+      <text x="268" y="26" fill="#94A3B8" font-size="10">点击状态联动筛选</text>
+      <g transform="translate(82, 102)">
+        <circle r="42" fill="none" stroke="#F1F5F9" stroke-width="14"/>
+        <circle r="42" fill="none" stroke="#3B5B7E" stroke-width="14" stroke-dasharray="95 169" stroke-dashoffset="0" transform="rotate(-90)"/>
+        <circle r="42" fill="none" stroke="#D49A3A" stroke-width="14" stroke-dasharray="58 206" stroke-dashoffset="-95" transform="rotate(-90)"/>
+        <circle r="42" fill="none" stroke="#2F6F5E" stroke-width="14" stroke-dasharray="55 209" stroke-dashoffset="-153" transform="rotate(-90)"/>
+        <circle r="42" fill="none" stroke="#10B981" stroke-width="14" stroke-dasharray="56 208" stroke-dashoffset="-208" transform="rotate(-90)"/>
+        <text y="2" text-anchor="middle" fill="#1E293B" font-size="18" font-weight="700">6</text>
+        <text y="16" text-anchor="middle" fill="#94A3B8" font-size="9.5">在办批次</text>
+      </g>
+      <g transform="translate(158, 56)" font-size="11" fill="#475569">
+        <circle cx="6" cy="5" r="4" fill="#94A3B8"/><text x="18" y="9">筹备中</text><text x="172" y="9" text-anchor="end" font-weight="600">1</text>
+        <circle cx="6" cy="29" r="4" fill="#D49A3A"/><text x="18" y="33">已挂网</text><text x="172" y="33" text-anchor="end" font-weight="600">2</text>
+        <circle cx="6" cy="53" r="4" fill="#3B5B7E"/><text x="18" y="57">开评标中</text><text x="172" y="57" text-anchor="end" font-weight="600">2</text>
+        <circle cx="6" cy="77" r="4" fill="#2F6F5E"/><text x="18" y="81">归档中</text><text x="172" y="81" text-anchor="end" font-weight="600">1</text>
+        <circle cx="6" cy="101" r="4" fill="#10B981"/><text x="18" y="105">已完成</text><text x="172" y="105" text-anchor="end" font-weight="600">3</text>
+      </g>
+
+      <!-- Heatmap Card -->
+      <rect x="374" width="518" height="174" rx="10" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#shadow)"/>
+      <text x="390" y="26" fill="#1E293B" font-size="12.5" font-weight="600">排期节点热力图</text>
+      <rect x="490" y="14" width="96" height="18" rx="4" fill="#F1F5F9"/>
+      <text x="538" y="26" text-anchor="middle" fill="#64748B" font-size="9.5">前后 18 周 · 14 节点</text>
+      <g transform="translate(396, 46)">
+        <!-- Grid of 18x6 cells -->
+        <g fill="#F1F5F9">
+          <rect x="0" y="0" width="20" height="14" rx="3"/><rect x="26" y="0" width="20" height="14" rx="3"/><rect x="52" y="0" width="20" height="14" rx="3"/><rect x="78" y="0" width="20" height="14" rx="3"/><rect x="104" y="0" width="20" height="14" rx="3"/><rect x="130" y="0" width="20" height="14" rx="3"/><rect x="156" y="0" width="20" height="14" rx="3"/><rect x="182" y="0" width="20" height="14" rx="3"/><rect x="208" y="0" width="20" height="14" rx="3"/><rect x="234" y="0" width="20" height="14" rx="3"/><rect x="260" y="0" width="20" height="14" rx="3"/><rect x="286" y="0" width="20" height="14" rx="3"/><rect x="312" y="0" width="20" height="14" rx="3"/><rect x="338" y="0" width="20" height="14" rx="3"/><rect x="364" y="0" width="20" height="14" rx="3"/><rect x="390" y="0" width="20" height="14" rx="3"/><rect x="416" y="0" width="20" height="14" rx="3"/><rect x="442" y="0" width="20" height="14" rx="3"/>
+          <rect x="0" y="19" width="20" height="14" rx="3"/><rect x="26" y="19" width="20" height="14" rx="3"/><rect x="52" y="19" width="20" height="14" rx="3"/><rect x="78" y="19" width="20" height="14" rx="3"/><rect x="104" y="19" width="20" height="14" rx="3"/><rect x="130" y="19" width="20" height="14" rx="3"/><rect x="156" y="19" width="20" height="14" rx="3"/><rect x="182" y="19" width="20" height="14" rx="3"/><rect x="208" y="19" width="20" height="14" rx="3"/><rect x="234" y="19" width="20" height="14" rx="3"/><rect x="260" y="19" width="20" height="14" rx="3"/><rect x="286" y="19" width="20" height="14" rx="3"/><rect x="312" y="19" width="20" height="14" rx="3"/><rect x="338" y="19" width="20" height="14" rx="3"/><rect x="364" y="19" width="20" height="14" rx="3"/><rect x="390" y="19" width="20" height="14" rx="3"/><rect x="416" y="19" width="20" height="14" rx="3"/><rect x="442" y="19" width="20" height="14" rx="3"/>
+          <rect x="0" y="38" width="20" height="14" rx="3"/><rect x="26" y="38" width="20" height="14" rx="3"/><rect x="52" y="38" width="20" height="14" rx="3"/><rect x="78" y="38" width="20" height="14" rx="3"/><rect x="104" y="38" width="20" height="14" rx="3"/><rect x="130" y="38" width="20" height="14" rx="3"/><rect x="156" y="38" width="20" height="14" rx="3"/><rect x="182" y="38" width="20" height="14" rx="3"/><rect x="208" y="38" width="20" height="14" rx="3"/><rect x="234" y="38" width="20" height="14" rx="3"/><rect x="260" y="38" width="20" height="14" rx="3"/><rect x="286" y="38" width="20" height="14" rx="3"/><rect x="312" y="38" width="20" height="14" rx="3"/><rect x="338" y="38" width="20" height="14" rx="3"/><rect x="364" y="38" width="20" height="14" rx="3"/><rect x="390" y="38" width="20" height="14" rx="3"/><rect x="416" y="38" width="20" height="14" rx="3"/><rect x="442" y="38" width="20" height="14" rx="3"/>
+          <rect x="0" y="57" width="20" height="14" rx="3"/><rect x="26" y="57" width="20" height="14" rx="3"/><rect x="52" y="57" width="20" height="14" rx="3"/><rect x="78" y="57" width="20" height="14" rx="3"/><rect x="104" y="57" width="20" height="14" rx="3"/><rect x="130" y="57" width="20" height="14" rx="3"/><rect x="156" y="57" width="20" height="14" rx="3"/><rect x="182" y="57" width="20" height="14" rx="3"/><rect x="208" y="57" width="20" height="14" rx="3"/><rect x="234" y="57" width="20" height="14" rx="3"/><rect x="260" y="57" width="20" height="14" rx="3"/><rect x="286" y="57" width="20" height="14" rx="3"/><rect x="312" y="57" width="20" height="14" rx="3"/><rect x="338" y="57" width="20" height="14" rx="3"/><rect x="364" y="57" width="20" height="14" rx="3"/><rect x="390" y="57" width="20" height="14" rx="3"/><rect x="416" y="57" width="20" height="14" rx="3"/><rect x="442" y="57" width="20" height="14" rx="3"/>
+          <rect x="0" y="76" width="20" height="14" rx="3"/><rect x="26" y="76" width="20" height="14" rx="3"/><rect x="52" y="76" width="20" height="14" rx="3"/><rect x="78" y="76" width="20" height="14" rx="3"/><rect x="104" y="76" width="20" height="14" rx="3"/><rect x="130" y="76" width="20" height="14" rx="3"/><rect x="156" y="76" width="20" height="14" rx="3"/><rect x="182" y="76" width="20" height="14" rx="3"/><rect x="208" y="76" width="20" height="14" rx="3"/><rect x="234" y="76" width="20" height="14" rx="3"/><rect x="260" y="76" width="20" height="14" rx="3"/><rect x="286" y="76" width="20" height="14" rx="3"/><rect x="312" y="76" width="20" height="14" rx="3"/><rect x="338" y="76" width="20" height="14" rx="3"/><rect x="364" y="76" width="20" height="14" rx="3"/><rect x="390" y="76" width="20" height="14" rx="3"/><rect x="416" y="76" width="20" height="14" rx="3"/><rect x="442" y="76" width="20" height="14" rx="3"/>
+        </g>
+        <!-- Highlighted active dates -->
+        <rect x="52" y="19" width="20" height="14" rx="3" fill="#B8D0E4"/>
+        <rect x="104" y="38" width="20" height="14" rx="3" fill="#658CB2"/>
+        <rect x="156" y="0" width="20" height="14" rx="3" fill="#B8D0E4"/>
+        <rect x="182" y="57" width="20" height="14" rx="3" fill="#3B5B7E"/>
+        <rect x="234" y="19" width="20" height="14" rx="3" fill="#D97706" stroke="#3B5B7E" stroke-width="1.5"/>
+        <rect x="260" y="38" width="20" height="14" rx="3" fill="#D97706"/>
+        <rect x="312" y="19" width="20" height="14" rx="3" fill="#658CB2"/>
+        <rect x="364" y="57" width="20" height="14" rx="3" fill="#B8D0E4"/>
+        <rect x="416" y="0" width="20" height="14" rx="3" fill="#3B5B7E"/>
+      </g>
+      <text x="390" y="160" fill="#64748B" font-size="10">悬浮查看当日开标批次，点击有色方格联动筛选下方台账</text>
+      <g transform="translate(755, 151)" font-size="9.5" fill="#94A3B8">
+        <rect width="10" height="10" rx="2" fill="#F1F5F9"/>
+        <rect x="14" width="10" height="10" rx="2" fill="#B8D0E4"/>
+        <rect x="28" width="10" height="10" rx="2" fill="#658CB2"/>
+        <rect x="42" width="10" height="10" rx="2" fill="#3B5B7E"/>
+        <rect x="62" width="10" height="10" rx="2" fill="#D97706"/>
+        <text x="76" y="9">7日内</text>
+      </g>
+    </g>
+
+    <!-- Charts Row 2: Timeline + SOP/Archive Progress -->
+    <g transform="translate(0, 324)">
+      <!-- Timeline -->
+      <rect width="518" height="132" rx="10" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#shadow)"/>
+      <text x="16" y="25" fill="#1E293B" font-size="12.5" font-weight="600">近期批次时间图</text>
+      <text x="118" y="25" fill="#94A3B8" font-size="10">公告 / 建档 → 开标节点</text>
+      <line x1="335" y1="36" x2="335" y2="118" stroke="#A94442" stroke-dasharray="3 3" stroke-width="1.2"/>
+      <text x="456" y="25" fill="#A94442" font-size="9.5">今日参考线</text>
+      <g transform="translate(16, 44)" font-size="10.5" fill="#334155">
+        <text y="11">2026Q4 信通运维授权批次</text>
+        <rect x="172" y="3" width="236" height="10" rx="4" fill="#F1F5F9"/>
+        <rect x="195" y="4" width="110" height="8" rx="4" fill="#2F6F5E"/>
+        <text x="430" y="11" fill="#64748B" font-size="9.5">已开标</text>
+
+        <text y="37">2026 配网勘察设计批次</text>
+        <rect x="172" y="29" width="236" height="10" rx="4" fill="#F1F5F9"/>
+        <rect x="235" y="30" width="94" height="8" rx="4" fill="#3B5B7E"/>
+        <text x="430" y="37" fill="#3B5B7E" font-size="9.5">开评标中</text>
+
+        <text y="63">2026Q4 综合后勤服务批次</text>
+        <rect x="172" y="55" width="236" height="10" rx="4" fill="#F1F5F9"/>
+        <rect x="288" y="56" width="84" height="8" rx="4" fill="#D97706"/>
+        <rect x="424" y="52" width="60" height="16" rx="4" fill="#FEF9EC"/>
+        <text x="454" y="63" text-anchor="middle" fill="#9A6B26" font-size="9.5">3天后开标</text>
+      </g>
+
+      <!-- SOP & Archive Progress -->
+      <rect x="532" width="360" height="132" rx="10" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#shadow)"/>
+      <text x="548" y="25" fill="#1E293B" font-size="12.5" font-weight="600">SOP 与归档齐套率</text>
+      <g transform="translate(548, 44)" font-size="10.5" fill="#334155">
+        <text y="10">2026Q4 信通运维授权批次</text>
+        <text x="328" y="10" text-anchor="end" fill="#A94442" font-size="9.5">缺 4 项</text>
+        <rect y="16" width="290" height="5" rx="2.5" fill="#F1F5F9"/><rect y="16" width="290" height="5" rx="2.5" fill="#3B5B7E"/>
+        <rect y="24" width="290" height="5" rx="2.5" fill="#F1F5F9"/><rect y="24" width="242" height="5" rx="2.5" fill="#A94442"/>
+
+        <text y="52">2026 配网勘察设计批次</text>
+        <text x="328" y="52" text-anchor="end" fill="#2F6F5E" font-size="9.5">已齐</text>
+        <rect y="58" width="290" height="5" rx="2.5" fill="#F1F5F9"/><rect y="58" width="218" height="5" rx="2.5" fill="#3B5B7E"/>
+        <rect y="66" width="290" height="5" rx="2.5" fill="#F1F5F9"/><rect y="66" width="290" height="5" rx="2.5" fill="#2F6F5E"/>
+      </g>
+    </g>
+
+    <!-- Bottom Contained Batch Ledger -->
+    <g transform="translate(0, 470)">
+      <rect width="892" height="136" rx="10" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#shadow)"/>
+      <rect width="892" height="38" rx="10" fill="#F8FAFC"/>
+      <line x1="0" y1="38" x2="892" y2="38" stroke="#E2E8F0"/>
+      <text x="16" y="23" fill="#1E293B" font-size="12.5" font-weight="600">招标批次台账</text>
+      <rect x="102" y="11" width="44" height="18" rx="9" fill="#FFFFFF" stroke="#E2E8F0"/>
+      <text x="124" y="23" text-anchor="middle" fill="#475569" font-size="10">6 / 9</text>
+      <rect x="520" y="9" width="150" height="22" rx="6" fill="#FFFFFF" stroke="#CBD5E1"/>
+      <text x="532" y="23" fill="#94A3B8" font-size="10">搜索批次名、编号或单位...</text>
+      <rect x="680" y="9" width="76" height="22" rx="6" fill="#3B5B7E"/>
+      <text x="718" y="23" text-anchor="middle" fill="#FFFFFF" font-size="10">台账 | 卡片</text>
+      <rect x="766" y="9" width="110" height="22" rx="6" fill="#FEF2F2" stroke="#FECACA"/>
+      <text x="821" y="23" text-anchor="middle" fill="#A94442" font-size="10">回收站 (1)</text>
+
+      <!-- Table Rows -->
+      <g transform="translate(16, 56)" font-size="11" fill="#334155">
+        <rect y="-11" width="54" height="18" rx="4" fill="#EBF2F7"/>
+        <text x="27" y="1" text-anchor="middle" fill="#3B5B7E" font-size="10">开评标中</text>
+        <text x="72" y="1" font-weight="600">2026 配网勘察设计服务集中采购批次</text>
+        <text x="348" y="1" fill="#64748B">示例市供电公司 A</text>
+        <text x="488" y="1">12 标段 · 1,680万</text>
+        <rect x="620" y="-6" width="60" height="6" rx="3" fill="#E2E8F0"/><rect x="620" y="-6" width="45" height="6" rx="3" fill="#3B5B7E"/>
+        <text x="688" y="1" font-size="10" fill="#475569">75%</text>
+        <rect x="756" y="-11" width="22" height="18" rx="4" fill="#FFFFFF" stroke="#CBD5E1"/><text x="767" y="1" text-anchor="middle" font-size="10">招</text>
+        <rect x="782" y="-11" width="22" height="18" rx="4" fill="#FFFFFF" stroke="#CBD5E1"/><text x="793" y="1" text-anchor="middle" font-size="10">评</text>
+        <rect x="808" y="-11" width="22" height="18" rx="4" fill="#FFFFFF" stroke="#CBD5E1"/><text x="819" y="1" text-anchor="middle" font-size="10">定</text>
+        <rect x="834" y="-11" width="22" height="18" rx="4" fill="#FFFFFF" stroke="#CBD5E1"/><text x="845" y="1" text-anchor="middle" font-size="10">档</text>
+
+        <line x1="0" y1="16" x2="860" y2="16" stroke="#F1F5F9"/>
+
+        <g transform="translate(0, 36)">
+          <rect y="-11" width="54" height="18" rx="4" fill="#ECFDF5"/>
+          <text x="27" y="1" text-anchor="middle" fill="#2F6F5E" font-size="10">归档中</text>
+          <text x="72" y="1" font-weight="600">2026Q4 信息通信运维服务授权采购批次</text>
+          <text x="348" y="1" fill="#64748B">示例信息通信分公司</text>
+          <text x="488" y="1">8 标段 · 960万</text>
+          <rect x="620" y="-6" width="60" height="6" rx="3" fill="#E2E8F0"/><rect x="620" y="-6" width="60" height="6" rx="3" fill="#2F6F5E"/>
+          <text x="688" y="1" font-size="10" fill="#2F6F5E">100%</text>
+          <rect x="756" y="-11" width="22" height="18" rx="4" fill="#FFFFFF" stroke="#CBD5E1"/><text x="767" y="1" text-anchor="middle" font-size="10">招</text>
+          <rect x="782" y="-11" width="22" height="18" rx="4" fill="#FFFFFF" stroke="#CBD5E1"/><text x="793" y="1" text-anchor="middle" font-size="10">评</text>
+          <rect x="808" y="-11" width="22" height="18" rx="4" fill="#FFFFFF" stroke="#CBD5E1"/><text x="819" y="1" text-anchor="middle" font-size="10">定</text>
+          <rect x="834" y="-11" width="22" height="18" rx="4" fill="#FFFFFF" stroke="#CBD5E1"/><text x="845" y="1" text-anchor="middle" font-size="10">档</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

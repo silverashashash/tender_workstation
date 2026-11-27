@@ -1,0 +1,15 @@
+services:
+  tender-workstation:
+    build: .
+    container_name: tender-workstation
+    restart: unless-stopped
+    ports:
+      - "3001:3001"
+    environment:
+      - PORT=3001
+      - DATA_DIR=/data
+      - AUTH_ENABLED=true
+      - AUTH_PASSWORD=${AUTH_PASSWORD:-change-me-strong-password}
+      - AUTH_SECRET=${AUTH_SECRET:-change-me-random-secret-key}
+    volumes:
+      - ./runtime_data:/data

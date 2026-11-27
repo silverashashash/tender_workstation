@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 340" width="1120" height="340" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <rect width="1120" height="340" rx="14" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="560" y="34" text-anchor="middle" fill="#1E293B" font-size="15" font-weight="700">招标代理全流程 SOP 闭环与本地离线部署架构</text>
+
+  <!-- 4 Stages Flow -->
+  <g transform="translate(36, 56)">
+    <rect width="236" height="118" rx="10" fill="#EBF2F7" stroke="#CBD5E1"/>
+    <text x="16" y="26" fill="#3B5B7E" font-size="13" font-weight="700">1. 招标准备阶段</text>
+    <text x="16" y="48" fill="#334155" font-size="11">• 需求一览表 / 申报表解析</text>
+    <text x="16" y="68" fill="#334155" font-size="11">• ERP 冲突自动比对</text>
+    <text x="16" y="88" fill="#334155" font-size="11">• 变更公告影响标包追踪</text>
+    <text x="16" y="106" fill="#64748B" font-size="10">输出：批次主数据 + 最高限价库</text>
+
+    <path d="M 244 59 L 266 59" stroke="#94A3B8" stroke-width="2" marker-end="url(#arr)"/>
+
+    <rect x="272" width="236" height="118" rx="10" fill="#FEF9EC" stroke="#FDE68A"/>
+    <text x="288" y="26" fill="#9A6B26" font-size="13" font-weight="700">2. 内网开评标阶段</text>
+    <text x="288" y="48" fill="#334155" font-size="11">• 报价超限 / 过低 / 税率核验</text>
+    <text x="288" y="68" fill="#334155" font-size="11">• 联系信息 + 硬件特征围串标</text>
+    <text x="288" y="88" fill="#334155" font-size="11">• 专家打分预校验与结果校验</text>
+    <text x="288" y="106" fill="#64748B" font-size="10">输出：核验报告 + 初评纪要/确认单</text>
+
+    <path d="M 516 59 L 538 59" stroke="#94A3B8" stroke-width="2"/>
+
+    <rect x="544" width="236" height="118" rx="10" fill="#ECFDF5" stroke="#A7F3D0"/>
+    <text x="560" y="26" fill="#2F6F5E" font-size="13" font-weight="700">3. 定标交付阶段</text>
+    <text x="560" y="48" fill="#334155" font-size="11">• 业主协议折扣自动匹配</text>
+    <text x="560" y="68" fill="#334155" font-size="11">• BigInt 精确服务费测算</text>
+    <text x="560" y="88" fill="#334155" font-size="11">• 一键生成公示 / 公告 / 交接表</text>
+    <text x="560" y="106" fill="#64748B" font-size="10">输出：Word 公示公告 + Excel 费表</text>
+
+    <path d="M 788 59 L 810 59" stroke="#94A3B8" stroke-width="2"/>
+
+    <rect x="816" width="232" height="118" rx="10" fill="#F1F5F9" stroke="#CBD5E1"/>
+    <text x="832" y="26" fill="#1E293B" font-size="13" font-weight="700">4. 归档资料整理</text>
+    <text x="832" y="48" fill="#334155" font-size="11">• 归档目录标色自动识别必须项</text>
+    <text x="832" y="68" fill="#334155" font-size="11">• 关联上游交付件与缺口追踪</text>
+    <text x="832" y="88" fill="#334155" font-size="11">• 单批次无损 ZIP 导出与合并</text>
+    <text x="832" y="106" fill="#64748B" font-size="10">输出：归档台账 + 完整离线档案包</text>
+  </g>
+
+  <!-- Tech Stack & Deployment Strip -->
+  <g transform="translate(36, 200)">
+    <rect width="1048" height="112" rx="10" fill="#F8FAFC" stroke="#E2E8F0"/>
+    <text x="20" y="28" fill="#1E293B" font-size="12.5" font-weight="700">技术栈与多端离线部署模式</text>
+
+    <rect x="20" y="42" width="322" height="54" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="34" y="64" fill="#3B5B7E" font-size="11.5" font-weight="600">前端：React 18 + TypeScript + Tailwind v4</text>
+    <text x="34" y="83" fill="#64748B" font-size="10.5">纯 SVG 交互图表 · 离线 IndexedDB 降级支持</text>
+
+    <rect x="362" y="42" width="322" height="54" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="376" y="64" fill="#2F6F5E" font-size="11.5" font-weight="600">后端：Node.js (node:sqlite) + Express</text>
+    <text x="376" y="83" fill="#64748B" font-size="10.5">零外部数据库依赖 · ExcelJS / SheetJS / PizZip</text>
+
+    <rect x="704" y="42" width="324" height="54" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="718" y="64" fill="#9A6B26" font-size="11.5" font-weight="600">部署：Docker / macOS 守护 / Win 绿色便携版</text>
+    <text x="718" y="83" fill="#64748B" font-size="10.5">内网断网 U 盘即拷即用（内置 x64 + ARM64 Node）</text>
+  </g>
+</svg>
